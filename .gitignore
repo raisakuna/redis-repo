@@ -1,0 +1,49 @@
+# Ignore Maven build directories and files
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+
+# Ignore IDE files
+.idea/
+*.iml
+*.class
+*.project
+*.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Maven Wrapper
+.mvn/wrapper/mvnw
+.mvn/wrapper/mvnw.cmd
+.mvn/wrapper/
+
+# Ignore environment-specific configuration files
+application.properties
+application.yml
+
+# Ignore local environment files
+.env
+*.local
+
+# Ignore compiled files
+out/
+bin/
+build/
+*.class
+
+# Ignore generated files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other IDE files (for Eclipse, IntelliJ IDEA, etc.)
+*.jre
+*.idea/
+*.vscode/
